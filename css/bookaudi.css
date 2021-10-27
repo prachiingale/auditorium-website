@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+ 
+  
+  .blue-bkg {
+    background-color: #79B3F1 !important;
+    color: white !important;
+  }
+  .nava {
+    font-family: 'Prata', serif !important;
+  }
+  .navrest {
+    font-family: 'Salsa', cursive;
+  }
+  .pink-bkg {
+    background-color: #D092B8 !important;
+    color: white !important;
+  }
+  
+  .purple {
+    background-color: #9299D0 !important;
+  }
+  .d-blue {
+    color: #007AFC;
+  }
+  
+  .purple-dropdown {
+    background-color: #9299D0 !important;
+    color: white !important;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+    background-color: #858fd6 !important;
+ }
+ dropdown-item a:hover {
+   background-color: #9299d0 !important;
+ }
+  .brown-header {
+    color: #FE8300;
+  }
+  .align {
+    align-items: center;
+  }
+  
+  .card-a {
+    color: white !important;
+  }
+  .card {
+    border: none!important;
+  }
+  .btnh:hover {
+    background-color:#027cfd !important ;
+  }
+  @media only screen and (min-width:768px) {
+    .formcontrol  {
+      
+      width: 70% !important;
+    }
+  }
+  @media only screen and (min-width:1200px) {
+    .formcontrol  {
+      
+      width: 60% !important;
+    }
+  }
+
+
+
+
+
+
+.wedding-bkg{
+  background-color: #a7adbb !important;
+  color: rgb(0, 0, 0) !important;
+}
+.wedding-btn-bkg {
+  background-color: #6e7179 !important;
+  color: rgb(255, 255, 255) !important;
+}
+.wedding-btn-bkg:hover {
+  background-color: #4a4c50 !important;
+  letter-spacing: 1.5px;
+}
+.ent-bkg{
+  background-color: #bc4b499c !important;
+  color: rgb(0, 0, 0) !important;
+}
+.ent-btn-bkg {
+  background-color: #bc4b49 !important;
+  color: rgb(255, 255, 255) !important;
+}
+.ent-btn-bkg:hover {
+  background-color: #812f2e !important;
+  letter-spacing: 1.5px;
+}
+.corp-bkg{
+    background-color: #F7D7B5 !important;
+    color: rgb(0, 0, 0) !important;
+  }
+
+  .corp-a {
+    color: rgb(0, 0, 0) !important;
+  }
+  .corp-btn-bkg {
+    background-color: #bb8f60 !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  
+.corp-btn-bkg:hover{
+  background-color:#8b6032 !important;
+  letter-spacing: 1.5px;
+}
+.card{
+    transition: 0.4s ease;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+}
+.tp {
+  display:block;
+}
+.start {
+  display: none;
+}
+*:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.ppurple {
+  background-color: #7853bc !important;
+  color: white !important;
+}
+.ppurple:hover {
+  letter-spacing: 1.2px;
+}
+/*Footer*/
+#pop {
+  background-color: #9299d0;
+  border: #9299d0;
+}
+.pyou {
+  color:red
+}
+.ptwit{
+ color:rgb(255, 255, 255)
+}
+.pinst {
+  color:#ce3c8c;
+}
+.pgit {
+ color:rgb(0, 0, 0)
+}
+.pface {
+ color:#4565a9;
+}
+
+#pop:hover{
+  
+  animation: pop 0.5s linear 1;
+}
+@keyframes pop{
+  
+  50%  {transform: scale(1.3);
+  }
+  100% {
+    background-color: #464f83;
+  }
+}
+#events-footer {
+  text-decoration: none;
+  color: black;
+}
+#events-footer:hover{
+  color: #fff;
+}
+/*Footer-End*/

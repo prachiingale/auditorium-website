@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/*Navbar*/
+.purple {
+  background-color: #9299D0 !important;
+}
+.nava {
+  font-family: 'Prata', serif !important;
+}
+.navrest {
+  font-family: 'Salsa', cursive;
+}
+.purple-dropdown {
+  background-color: #9299D0 !important;
+  color: white !important;
+}
+#events-footer{
+  color: black;
+  text-decoration: none;
+}
+#events-footer:hover{
+ color: rgb(221, 211, 211);
+}
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 20%;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: #858fd6 !important;
+}
+dropdown-item a:hover {
+ background-color: #9299d0 !important;
+}
+/*Navbar-End*/
+
+
+.pink-bg {
+  background-color: #F7B5D5;
+}
+.inner-cont{
+  width: 90%;
+}
+@media only screen and (min-width:450px) {
+  .inner-cont{
+    width: 80%;
+  }
+}
+@media only screen and (min-width:768px) {
+  .inner-cont{
+    width: 70%;
+  }
+}
+@media only screen and (min-width:992px) {
+  .inner-cont{
+    width: 60%;
+  }
+}
+
+.accordion-item {
+  border:1px solid #b3cff4 !important;
+}
+.accordion-button:not(.collapsed) {
+  color: white !important;;
+background-color: #79B3F1 !important;
+}
+.bg {
+  background-color: #e2eeff;
+  color: #4e60ae;
+}
+.bg:hover {
+  box-shadow: rgba(0, 118, 245, 0.2) 0px 10px 30px 0px, rgba(0, 118, 245, 0.1) 0px 0px 0px 1px;
+}
+.review-font {
+  font-family: 'Bodoni Moda', serif;
+}
+.dnone {
+  display: none;
+}
+.book {
+  background-color: #79B3F1 !important;
+  letter-spacing: 1.1px;
+}
+.book:hover {
+  color: white !important;
+   letter-spacing: 1.7px;
+  background-color:  #076391  !important;
+}
+
+.img-thumbnail {
+  background-color: grey !important;
+}
+*:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/*Footer*/
+#pop {
+  background-color: #9299d0;
+  border: #9299d0;
+}
+.pyou {
+  color:red
+}
+.ptwit{
+ color:rgb(255, 255, 255)
+}
+.pinst {
+  color:#ce3c8c;
+}
+.pgit {
+ color:rgb(0, 0, 0)
+}
+.pface {
+ color:#4565a9;
+}
+
+#pop:hover{
+  
+  animation: pop 0.5s linear 1;
+}
+@keyframes pop{
+  
+  50%  {transform: scale(1.3);
+  }
+  100% {
+    background-color: #464f83;
+  }
+}
+/*Footer-End*/
